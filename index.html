@@ -2,42 +2,124 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mi Página Web</title>
+  <title>Portafolio de [Tu Nombre]</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f4f4f4;
-    }
-    header {
-      background-color: #333;
-      color: #fff;
-      padding: 20px 0;
-      text-align: center;
-    }
-    h1 {
-      margin: 0;
-      font-size: 36px;
-    }
-    .container {
-      width: 80%;
-      margin: 20px auto;
-      text-align: center;
-    }
-    p {
-      font-size: 18px;
-      line-height: 1.6;
-    }
+    /* Estilos para el cuerpo del documento */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+
+  /* Estilos para el encabezado */
+  header {
+    background-color: #188d9c;
+    color: #4e0f0f;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+    /* Estilos para la imagen en la cabecera */
+  header img {
+    width: 200px; /* Cambia este valor al ancho deseado */
+    height: auto; /* Esto permite mantener la proporción original de la imagen */
+    /* Otros estilos que desees agregar */
+  }
+
+
+  /* Estilos para la navegación */
+  nav {
+    text-align: center;
+    background-color: #33b926;
+    padding: 10px 0;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+
+  /* Estilos para el contenido principal */
+  main {
+    padding: 20px;
+  }
+
+  section {
+    margin-bottom: 30px;
+  }
+
+  /* Estilos para el pie de página */
+  footer {
+    text-align: center;
+    background-color: #1475a1;
+    color: #d63636;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
   </style>
 </head>
 <body>
   <header>
-    <h1>Bienvenido a Mi Página Web</h1>
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Imagen de cabecera">
+    <h1>[Tu Nombre]</h1>
+    <p>Desarrollador Web</p>
   </header>
-  <div class="container">
-    <p>¡Hola! Esta es una página web de ejemplo creada con HTML y CSS.</p>
-    <p>Aquí puedes agregar más información, imágenes, enlaces, ¡lo que desees!</p>
-  </div>
+
+  <nav>
+    <ul>
+      <li><a href="#sobre-mi">Sobre mí</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="sobre-mi">
+      <h2>Sobre mí</h2>
+      <p>Apasionado por la programación y el desarrollo web. Certificado en Desarrollo Web, IA y C#. Buscando oportunidades para crecer en el mundo del software.</p>
+    </section>
+
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Python</li>
+        <!-- Agrega más habilidades según tu experiencia -->
+      </ul>
+    </section>
+
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <p>Aquí puedes listar tus proyectos o incluir enlaces a ellos.</p>
+    </section>
+
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>Puedes contactarme a través de [tu correo electrónico] o en mis redes sociales:</p>
+      <ul>
+        <li><a href="#">LinkedIn</a></li>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">GitHub</a></li>
+        <!-- Agrega enlaces a tus redes sociales -->
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 [Tu Nombre]. Todos los derechos reservados.</p>
+  </footer>
 </body>
 </html>
